@@ -1,12 +1,12 @@
-package parsing;
+package customizedparsing;
 
 import org.apache.jena.riot.RDFDataMgr;
 import org.apache.jena.riot.system.StreamRDF;
 
 public class ParserExample {
-
 	public static void main(String[] argvs) {
-		String fileName = "src/main/resources/test1.ttl";
+		String fileName = "/Users/kien/xsystem/testdata/dbpedia/dbpedia_data.ttl";
+		// String fileName = "src/main/resources/test1.ttl";
 		StreamRDF tripleHandler = new TripleHandler();
 
 		// Call the parsing process.

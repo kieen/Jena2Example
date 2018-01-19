@@ -1,4 +1,4 @@
-package parsing;
+package customizedparsing;
 
 import org.apache.jena.riot.system.StreamRDFBase;
 
